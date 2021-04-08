@@ -5,6 +5,7 @@ const PercentageBarContainer = styled.div`
   width: 80%;
   margin: 0 auto 20px auto;
   position: relative;
+  overflow-x: initial;
   span {
     color: ${props => props.theme.colors.gray2};
     font-size: 0.75rem;

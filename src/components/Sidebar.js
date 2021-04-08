@@ -42,7 +42,7 @@ const SidebarStyled = styled.div`
     color: ${props => props.theme.colors.gray2};
   }
   .img-container {
-    height: 335px;
+    height: 310px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,10 +60,9 @@ const SidebarStyled = styled.div`
     font-size: 9rem;
     font-weight: 500;
     color: ${props => props.theme.colors.white};
-    margin-bottom: 33px;
+    margin-bottom: 14px;
     display: flex;
     justify-content: center;
-    line-height: 0.9;
     span {
       font-size: 3rem;
       color: ${props => props.theme.colors.gray2};

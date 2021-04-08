@@ -62,7 +62,7 @@ const NavStyled = styled.nav`
       width: 100%;
       ul {
         overflow-y: scroll;
-        width: 100%;
+        width: 95%;
         scrollbar-color: #e94560 darkgrey;
         li {
           color: ${props => props.theme.colors.white};
