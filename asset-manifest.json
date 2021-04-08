@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/weather-app/static/js/main.d93ce40d.chunk.js",
+    "main.js.map": "/weather-app/static/js/main.d93ce40d.chunk.js.map",
+    "runtime-main.js": "/weather-app/static/js/runtime-main.e6f382d7.js",
+    "runtime-main.js.map": "/weather-app/static/js/runtime-main.e6f382d7.js.map",
+    "static/js/2.63a3f54a.chunk.js": "/weather-app/static/js/2.63a3f54a.chunk.js",
+    "static/js/2.63a3f54a.chunk.js.map": "/weather-app/static/js/2.63a3f54a.chunk.js.map",
+    "index.html": "/weather-app/index.html",
+    "precache-manifest.38109c01873ce04be19686e9d6e0ed35.js": "/weather-app/precache-manifest.38109c01873ce04be19686e9d6e0ed35.js",
+    "service-worker.js": "/weather-app/service-worker.js",
+    "static/js/2.63a3f54a.chunk.js.LICENSE.txt": "/weather-app/static/js/2.63a3f54a.chunk.js.LICENSE.txt",
+    "static/media/Clear.png": "/weather-app/static/media/Clear.a8528a86.png",
+    "static/media/Cloud-background.png": "/weather-app/static/media/Cloud-background.11452cab.png",
+    "static/media/LightCloud.png": "/weather-app/static/media/LightCloud.c6d1cb36.png",
+    "static/media/Shower.png": "/weather-app/static/media/Shower.b62e950b.png",
+    "static/media/Sleet.png": "/weather-app/static/media/Sleet.e1202bb6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6f382d7.js",
+    "static/js/2.63a3f54a.chunk.js",
+    "static/js/main.d93ce40d.chunk.js"
+  ]
+}
