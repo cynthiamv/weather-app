@@ -6,7 +6,7 @@ const NavStyled = styled.nav`
   position: fixed;
   width: 100vw;
   height: 100%;
-  z-index: 1;
+  z-index: 2;
   .nav-container {
     position: relative;
     padding: 12px;
@@ -27,7 +27,7 @@ const NavStyled = styled.nav`
       input {
         position: relative;
         margin-right: 12px;
-        min-width: 71%;
+        width: 66%;
         font-size: 1rem;
         font-weight: 500;
         padding: 14px 3px 14px 36px;
@@ -46,7 +46,7 @@ const NavStyled = styled.nav`
         font-size: 1.375rem;
       }
       button {
-        min-width: 20%;
+        width: 29%;
         font-size: 1rem;
         font-weight: 600;
         padding: 14px;
@@ -99,11 +99,7 @@ const NavStyled = styled.nav`
       }
     }
   }
-  @media (min-width: 375px) {
-    button {
-      min-width: 25%;
-    }
-  }
+
   @media (min-width: 992px) {
     width: 34%;
     li {

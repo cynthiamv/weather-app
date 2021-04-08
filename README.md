@@ -43,6 +43,7 @@
 
 - [React](https://reactjs.org/)
 - [styled-components](https://styled-components.com/)
+- [Material Icons](https://fonts.google.com/icons?selected=Material+Icons)
 
 ## Features
 

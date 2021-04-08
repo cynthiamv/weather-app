@@ -4,11 +4,11 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
     margin: 0;
-    overflow-x: hidden
   }
 
   body {
     font-family: 'Raleway', sans-serif;
+    background-color: ${props => props.theme.colors.darkBlue};
   }
   
   a {

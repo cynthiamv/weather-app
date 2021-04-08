@@ -46,14 +46,29 @@ const SidebarStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(${background}) ${props => props.theme.colors.blue} no-repeat center/cover;
+    position: relative; 
+    &::after {
+      position: absolute;
+      content: " ";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      background-color: rgb(30 33 58 / 95%);
+    }
+    
     .clouds-background {
       position: absolute;
       height: inherit;
       opacity: 0.1;
     }
     .weather-icon {
-      height: max-content;
+      width: 150px;
       margin-right: 20px;
+      position: relative;
+      z-index: 1;
     }
   }
   .current-temperature {
@@ -108,6 +123,11 @@ const SidebarStyled = styled.div`
   }
   @media (min-width: 992px) {
     width: 34%;
+    .img-container {
+      .weather-icon {
+        width: 200px;
+      }
+    }
   }
 ` 
 
@@ -155,7 +175,7 @@ const Sidebar = ({ data, cityName, fetchWeatherInfo, unitTemp }) => {
       </div>
       <div className="current-weather">
         <div className="img-container">
-          <img className="clouds-background" src={background} alt="Clouds Background" />
+          {/* <img className="clouds-background" src={background} alt="Clouds Background" /> */}
           <img className="weather-icon" src={icon} alt={currentWeather.weather_state_name} />
         </div>
         
